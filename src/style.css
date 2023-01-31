@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+section {
+  background-color: #fff;
+  margin: 24px auto;
+  width: 80%;
+  box-shadow: 2px 2px whitesmoke;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+h1 {
+  padding: 1%;
+  font-weight: 300;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 2%;
+}
+
+.add-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+input {
+  border: none;
+  background-color: #fff;
+
+  /* width: 80%; */
+}
+
+.btn-clear {
+  background-color: rgb(152, 149, 149);
+}
+
+.btn-clear button {
+  padding: 1rem;
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(152, 149, 149);
+}
+
+.list-items {
+  padding: 12px 4px;
+  margin: 0;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.remove {
+  background: transparent;
+  border: none;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-remove {
+  margin-left: auto;
+}
+
+.checkbox {
+  margin-left: 12px;
+}

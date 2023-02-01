@@ -10,7 +10,6 @@ body {
 }
 
 section {
-  background-color: #fff;
   margin: 24px auto;
   width: 80%;
   box-shadow: 2px 2px whitesmoke;
@@ -30,7 +29,6 @@ h1 {
 }
 
 button {
-  background-color: white;
   border: none;
   padding: 2%;
 }
@@ -44,11 +42,14 @@ button {
   border-bottom: 1px solid grey;
 }
 
+input,
+button,
+section {
+  background-color: #fff;
+}
+
 input {
   border: none;
-  background-color: #fff;
-
-  /* width: 80%; */
 }
 
 .btn-clear {
